@@ -432,6 +432,6 @@ Module 4 → Reads JSON → Displays UI → Human Decision → Updates JSON & Au
 - **After Module 2:** + `sentiment_score`, `scenario_category`, `confidence_score`
 - **After Module 3:** + `module3_explanation`, `module3_impact_assessment`, `module3_suggested_action`, `shadow_review_urgency`, `is_flagged_for_review`
 
----
+----
 
 **Built with trust for truth and accuracy — Adan AI Multi-Modal Social Signal Intelligence System**
