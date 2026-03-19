@@ -1,7 +1,7 @@
 # Adan – AI Multi-Modal Social Signal Intelligence System for Mashreq Bank
 
 This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham Dubai.
-The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/).
+The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We were finalists in this hackathon..
 
 ## Project Overview
 
