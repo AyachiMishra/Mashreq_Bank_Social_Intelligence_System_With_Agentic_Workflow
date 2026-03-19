@@ -8,7 +8,7 @@ The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We we
 - **Enterprise-grade AI system** for real-time social signal intelligence and risk detection
 - **Multi-modal pipeline** combining synthetic data generation, AI analysis, and human oversight
 - **Zero autonomous action** — all critical decisions require human approval (HITL)
-- **Privacy-first architecture** — no PII storage or processing
+- **Privacy-first architecture** — no PII (personal information identification) storage or processing
 - **Real-time monitoring** with intelligent risk classification and team routing
 - Built for **financial institutions** requiring transparent AI governance
 
@@ -16,7 +16,7 @@ The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We we
 
 ## Key Capabilities
 
--  **PR Agent** — Automated public response drafting with human review
+-  **PR Agent** — Automated public response drafting with human review (the public response is only sent if reviewed and allowed by the human in charge).
 -  **Advanced Analytics Dashboard** — Real-time signal visualization and trend analysis
 -  **Risk Detection Management** — Critical/High/Medium/Low urgency classification
 -  **Synthetic Data Generation** — Simulates social signals every 10 seconds for testing
