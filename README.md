@@ -110,10 +110,10 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   },
   "module3_impact_assessment": {
     "severity": "Severe operational risk",
-    "affected_services": (
+    "affected_services": 
    "Mobile Banking",
       "Login"
-    )
+    
   },
   "module3_suggested_action": "Deploy emergency fix and notify users",
   "shadow_review_urgency": "Critical",
