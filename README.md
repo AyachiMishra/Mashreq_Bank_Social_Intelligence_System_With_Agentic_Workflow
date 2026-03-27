@@ -2,7 +2,7 @@
 
 This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham Dubai.
 The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We were finalists in this hackathon..
-
+Have a look at the waterfall like json schema we designed! [Output format of our modules](system-architecture)
 ## Project Overview
 
 - **Enterprise-grade AI system** for real-time social signal intelligence and risk detection
@@ -32,7 +32,7 @@ The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We we
 
 ---
 
-## System Architecture (4-Module Pipeline)
+## System Architecture 
 
 ### **Module 1: Data Ingestion & Privacy Guardrails**
 - **Responsibility:** Synthetic data generation and strict PII scrubbing
