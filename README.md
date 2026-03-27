@@ -111,8 +111,8 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   "module3_impact_assessment": {
     "severity": "Severe operational risk",
     "affected_services": 
-   "Mobile Banking",
-      "Login"
+   ["Mobile Banking",
+      "Login"]
     
   },
   "module3_suggested_action": "Deploy emergency fix and notify users",
@@ -133,6 +133,45 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   - Routes approved actions to target departments
   - Implements PR Agent for public response management
 - **User Interface:** Multi-page dashboard with analytics, governance logs, and PR workflow
+```
+{
+  "synthetic_id": "SYN-2026-001",
+  "timestamp": "2026-03-27T10:15:30Z",
+  "raw_text": "Users are reporting login failures on mobile banking app",
+  "source_type": "Synthetic Forum",
+  "category": "negative",
+  "pii_scrubbed_count": 0,
+
+  "sentiment_score": -0.85,
+  "scenario_category": "Service Outage",
+  "confidence_score": 92,
+
+  "module3_explanation": {
+    "reputational_risk": "High",
+    "operational_impact": "Critical"
+  },
+  "module3_impact_assessment": {
+    "severity": "Severe operational risk",
+    "affected_services": [
+      "Mobile Banking",
+      "Login"
+    ]
+  },
+  "module3_suggested_action": "Deploy emergency fix and notify users",
+  "shadow_review_urgency": "Critical",
+  "is_flagged_for_review": true,
+
+  "human_decision": {
+    "status": "Approved",
+    "reviewed_by": "operations_team_lead",
+    "review_timestamp": "2026-03-27T10:16:45Z",
+    "edited_response": "We are currently investigating login issues. Please bear with us.",
+    "action_routed_to": "IT Ops"
+  },
+
+  "audit_log_id": "AUDIT-2026-77821"
+}
+```
 
 ---
 
