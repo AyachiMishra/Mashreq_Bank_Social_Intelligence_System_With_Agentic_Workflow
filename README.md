@@ -44,7 +44,16 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   - Outputs structured JSON with metadata
   - Tracks `pii_scrubbed_count` for audit compliance
 - **Output Format:** JSON with fields: `synthetic_id`, `timestamp`, `raw_text`, `source_type`, `category`, `pii_scrubbed_count`
-
+```
+{
+  "synthetic_id": "SYN-2026-001",
+  "timestamp": "2026-03-27T10:15:30Z",
+  "raw_text": "Users are reporting login failures on mobile banking app",
+  "source_type": "Synthetic Forum",
+  "category": "negative",
+  "pii_scrubbed_count": 0
+}
+```
 ### **Module 2: Risk & Sentiment Analytical Engine**
 - **Responsibility:** Classification and confidence scoring
 - **Technologies:** LangChain, OpenAI GPT-4, Custom NLP Models
@@ -55,7 +64,21 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   - Assigns `scenario_category` for routing
   - Flags ambiguous signals for human review
 - **Output Enhancement:** Adds `sentiment_score`, `scenario_category`, `confidence_score` to JSON
+```
+{
+  "synthetic_id": "SYN-2026-001",
+  "timestamp": "2026-03-27T10:15:30Z",
+  "raw_text": "Users are reporting login failures on mobile banking app",
+  "source_type": "Synthetic Forum",
+  "category": "negative",
+  "pii_scrubbed_count": 0,
 
+  "sentiment_score": -0.85,
+  "scenario_category": "Service Outage",
+  "confidence_score": 92
+}
+
+```
 ### **Module 3: Agentic Reasoning & Response Generator**
 - **Responsibility:** Explainability and "Why this matters"
 - **Technologies:** LangChain Agents, OpenAI GPT-4, Pydantic Validation
@@ -68,7 +91,36 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   - Generates `module3_suggested_action` for human review
 - **Output Enhancement:** Adds `module3_explanation`, `module3_impact_assessment`, `module3_suggested_action`, `shadow_review_urgency` to JSON
 - **File Output:** Writes enriched data to `module3_reasoning/agentic_output.json`
+'''plain text
+{
+  "synthetic_id": "SYN-2026-001",
+  "timestamp": "2026-03-27T10:15:30Z",
+  "raw_text": "Users are reporting login failures on mobile banking app",
+  "source_type": "Synthetic Forum",
+  "category": "negative",
+  "pii_scrubbed_count": 0,
 
+  "sentiment_score": -0.85,
+  "scenario_category": "Service Outage",
+  "confidence_score": 92,
+
+  "module3_explanation": {
+    "reputational_risk": "High",
+    "operational_impact": "Critical"
+  },
+  "module3_impact_assessment": {
+    "severity": "Severe operational risk",
+    "affected_services": [
+   "Mobile Banking",
+      "Login"
+    ]
+  },
+  "module3_suggested_action": "Deploy emergency fix and notify users",
+  "shadow_review_urgency": "Critical",
+  "is_flagged_for_review": true
+}
+
+'''
 ### **Module 4: Governance & Executive Dashboard**
 - **Responsibility:** Human-in-the-loop and Executive Briefing
 - **Technologies:** FastAPI, WebSockets, HTML/TailwindCSS, Chart.js
