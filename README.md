@@ -91,7 +91,7 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   - Generates `module3_suggested_action` for human review
 - **Output Enhancement:** Adds `module3_explanation`, `module3_impact_assessment`, `module3_suggested_action`, `shadow_review_urgency` to JSON
 - **File Output:** Writes enriched data to `module3_reasoning/agentic_output.json`
-'''plain text
+```plain text
 {
   "synthetic_id": "SYN-2026-001",
   "timestamp": "2026-03-27T10:15:30Z",
@@ -120,7 +120,7 @@ Have a look at the waterfall like json schema we designed! [Output format of our
   "is_flagged_for_review": true
 }
 
-'''
+```
 ### **Module 4: Governance & Executive Dashboard**
 - **Responsibility:** Human-in-the-loop and Executive Briefing
 - **Technologies:** FastAPI, WebSockets, HTML/TailwindCSS, Chart.js
