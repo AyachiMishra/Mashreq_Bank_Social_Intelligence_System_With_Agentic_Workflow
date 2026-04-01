@@ -9,9 +9,11 @@ This project was developed as part of a hackathon challenge inspired by a use ca
 - Any references to Mashreq Bank are **contextual to the challenge** and do not represent real systems, infrastructure, or incidents.
 - The system architecture, signals, and outputs shown are **simulated examples** designed to demonstrate technical capabilities.
 
+## This Project
 This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham Dubai.
 The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We were finalists in this hackathon..
 Have a look at the waterfall like json schema we designed! [JSON Output format of our modules](#system-architecture)
+
 ## Project Overview
 
 - **Enterprise-grade AI system** for real-time social signal intelligence and risk detection
