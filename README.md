@@ -1,13 +1,14 @@
 # Adan – AI Multi-Modal Social Signal Intelligence System for Mashreq Bank
 
+
 ## Disclaimer : 
+This repository was created as part of a hackathon challenge organized by Mashreq Bank.
 
-This project was developed as part of a hackathon challenge inspired by a use case from Mashreq Bank.
+- This project is **not affiliated with, endorsed by, or representing Mashreq Bank**.
+- All data is **synthetic and AI-generated** for demonstration purposes only.
+- No real systems, infrastructure, or internal data from Mashreq Bank are used.
+- The use of the name "Mashreq Bank" is strictly for **contextual reference to the hackathon challenge**.
 
-- All data used in this repository is **synthetic and AI-generated** for demonstration purposes only.
-- No real customer data, financial records, credentials, or internal systems are included.
-- Any references to Mashreq Bank are **contextual to the challenge** and do not represent real systems, infrastructure, or incidents.
-- The system architecture, signals, and outputs shown are **simulated examples** designed to demonstrate technical capabilities.
 
 ## This Project
 This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham Dubai.
