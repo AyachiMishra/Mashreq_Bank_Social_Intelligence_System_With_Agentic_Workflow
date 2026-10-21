@@ -11,7 +11,7 @@ This repository was created as part of a hackathon challenge organized by Mashre
 
 
 ## This Project
-This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham Dubai.
+This project was a result of the hackathon(specifically a bounty challenge) attended by our team (Team Eclipse) at the University Of Birmingham-Dubai.
 The bounty was set by [Mashreq Bank](https://www.mashreq.com/en/uae/neo/). We were finalists in this hackathon..
 Have a look at the waterfall like json schema we designed! [JSON Output format of our modules](#system-architecture)
 
